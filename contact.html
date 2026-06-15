@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact – Skilligent Hands</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container nav-container">
+      <a href="index.html" class="logo">Skilligent Hands</a>
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="blog.html">Resources</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">☰</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container page-content">
+    <h1>Get in Touch</h1>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <p><strong>Email:</strong> hello@skilligenthands.com</p>
+        <p><strong>Phone:</strong> +234 801 234 5678</p>
+        <p><strong>Location:</strong> Lagos, Nigeria (Online sessions available nationwide)</p>
+        <div class="booking-section">
+          <h2>Book a Session</h2>
+          <a href="https://calendly.com/your-username" target="_blank" class="btn btn-primary">Schedule via Calendly</a>
+        </div>
+      </div>
+
+      <form action="https://formspree.io/f/your-form-id" method="POST" class="contact-form">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <p>&copy; 2025 Skilligent Hands. Let Them Fly.</p>
+      <div class="social-links">
+        <a href="#" aria-label="LinkedIn">🔗</a>
+        <a href="#" aria-label="Twitter">🐦</a>
+        <a href="#" aria-label="Instagram">📷</a>
+      </div>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
